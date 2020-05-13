@@ -1,5 +1,6 @@
 ### PROYECTO RESTSERVER - CURSO NODE ###
 
 ```
-npm instal
+npm install
+
 ```

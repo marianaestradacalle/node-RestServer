@@ -1,7 +1,6 @@
 // Puerto
 process.env.PORT = process.env.PORT || 3000;
 
-
 //Entorno
 
 process.env.NODE_ENV = process.env.NODE_ENV || 'dev';
@@ -17,7 +16,6 @@ process.env.SEED = process.env.SEED || 'este-es-el-seed-de-desarrollo';
 process.env.CLIENT_ID = process.env.CLIENT_ID || '470146084235-c9cih1ajksco4vfqr5l6msgtf5io2ttg.apps.googleusercontent.com';
 
 //Base de datos
-
 let urlDB;
 
 if (process.env.NODE_ENV === 'dev') {
